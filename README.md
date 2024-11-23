@@ -4,7 +4,7 @@
 - [Git Repo - Personal](https://github.com/maheskasi007/comfy-store-react-redux.git) 
 
 Git User name: maheskasi
-Git Password (use token): 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
+Git Password (use token): 
 
 ## Useful Project Resources
 
