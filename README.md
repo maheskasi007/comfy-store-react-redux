@@ -3,8 +3,6 @@
 - [Git Repo - Cognizant](https://885852@dev.azure.com/885852/comfy-store-react-redux/_git/comfy-store-react-redux)
 - [Git Repo - Personal](https://github.com/maheskasi007/comfy-store-react-redux.git) 
 
-Git User name: maheskasi
-Git Password (use token): 
 
 ## Useful Project Resources
 
