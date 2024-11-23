@@ -5,7 +5,7 @@
 
 ***
 
-## Initial Setup
+## Challenge 1 -Initial Setup
 
 - create vite project with tailwind[Tailwind Docs](https://tailwindcss.com/docs/guides/vite)
 
@@ -99,15 +99,15 @@ tailwind.config.js
 }
 ```
 
-## Install All Libraries
+## Challenge 2 - Install All Libraries
 
 ```sh
 npm i axios@1.4.0 dayjs@1.11.9 @reduxjs/toolkit@1.9.5 @tanstack/react-query@4.32.6 @tanstack/react-query-devtools@4.32.6 react-icons@4.10.1 react-redux@8.1.2 react-router-dom@6.14.2 react-toastify@9.1.3
 ```
 
-================================================================================================================
+***
 
-## Create All Pages
+## Challenge 3 - Create All Pages
 
 - create pages directory
 - create all pages and export from index.js
@@ -116,9 +116,9 @@ npm i axios@1.4.0 dayjs@1.11.9 @reduxjs/toolkit@1.9.5 @tanstack/react-query@4.32
   Products, Register, SingleProduct
 - import in app.jsx
 
-================================================================================================================
+***
 
-## React Router
+## Challenge 4 - React Router
 
 - configure react router
 - setup initial route structure
@@ -126,7 +126,7 @@ npm i axios@1.4.0 dayjs@1.11.9 @reduxjs/toolkit@1.9.5 @tanstack/react-query@4.32
 
 1. Import Dependencies:
 
-  - Import necessary modules from the 'react-router-dom' library.
+- Import necessary modules from the 'react-router-dom' library.
 
 2. Create Router Configuration:
 
@@ -146,9 +146,9 @@ npm i axios@1.4.0 dayjs@1.11.9 @reduxjs/toolkit@1.9.5 @tanstack/react-query@4.32
 5. Export App Component:
    - Export the `App` component as the default export of the module.
 
-================================================================================================================
+***
 
-## Error Page
+## Challenge 5 - Error Page
 
 - complete error page
 - create two returns
@@ -183,9 +183,9 @@ npm i axios@1.4.0 dayjs@1.11.9 @reduxjs/toolkit@1.9.5 @tanstack/react-query@4.32
 5. Export Error Component:
    - Export the `Error` component as the default export of the module.
 
-================================================================================================================
+***
 
-## Input Field Component
+## Challenge 6 - Input Field Component
 
 - create components folder with index.js
 - in daisyui
@@ -220,9 +220,9 @@ npm i axios@1.4.0 dayjs@1.11.9 @reduxjs/toolkit@1.9.5 @tanstack/react-query@4.32
 4. Export FormInput Component:
    - Export the `FormInput` component as the default export of the module.
 
-================================================================================================================
+***
 
-## CLogin Page Structure
+## Challenge 7 - CLogin Page Structure
 
 - setup structure for login page (use complete project as reference)
 - check for loading state and disable submit button
@@ -300,9 +300,9 @@ npm i axios@1.4.0 dayjs@1.11.9 @reduxjs/toolkit@1.9.5 @tanstack/react-query@4.32
           - Class set to `'ml-2 link link-hover link-primary capitalize'`.
           - Text content set to `'register'`.
 
-================================================================================================================
+***
 
-## Register Page Structure
+## Challenge 8 - Register Page Structure
 
 - setup structure for register page (use complete project as reference)
 
@@ -345,16 +345,15 @@ npm i axios@1.4.0 dayjs@1.11.9 @reduxjs/toolkit@1.9.5 @tanstack/react-query@4.32
           - Class set to `'ml-2 link link-hover link-primary capitalize'`.
           - Text content set to `'login'`.
 
-================================================================================================================
+***
 
-## Custom Class
+## Challenge 9 - Custom Class
 
 - create custom class
 - align content
 - add to HomeLayout Outlet component
 
-
-## Challenge (10) - Header Component
+## Challenge 10 - Header Component
 
 - setup and render header component in HomeLayout
 - add two links - Login and Register
@@ -386,7 +385,9 @@ npm i axios@1.4.0 dayjs@1.11.9 @reduxjs/toolkit@1.9.5 @tanstack/react-query@4.32
             - Class set to `'link link-hover text-xs sm:text-sm'`.
             - Text content set to `'Create an Account'`.
 
-## Challenge (11) - Navbar Structure
+***
+
+## Challenge 11 - Navbar Structure
 
 - create components/Navbar.jsx
 - setup initial structure
@@ -438,7 +439,9 @@ npm i axios@1.4.0 dayjs@1.11.9 @reduxjs/toolkit@1.9.5 @tanstack/react-query@4.32
 
             - Create a `span` element with classes `'badge badge-sm badge-primary indicator-item'` and text content `'8'`.
 
-## Challenge (12) - NavLinks
+***
+
+## Challenge 12 - NavLinks
 
 - create NavLinks component
 - setup an array of links
@@ -470,18 +473,22 @@ npm i axios@1.4.0 dayjs@1.11.9 @reduxjs/toolkit@1.9.5 @tanstack/react-query@4.32
 
           - Text content set to the `text`.
 
+***
 
-## Challenge (13) - Toggle Component
+## Challenge 13 - Toggle Component
 
 - add daisyui swap component
 
-## Challenge (14) - Set Themes
+***
+
+## Challenge 14 - Set Themes
 
 - add few themes from daisyui
 - test in index.html
 
+***
 
-## Challenge (15) - Change Theme
+## Challenge 15 - Change Theme
 
 - change theme with toggle component
 
@@ -507,8 +514,9 @@ npm i axios@1.4.0 dayjs@1.11.9 @reduxjs/toolkit@1.9.5 @tanstack/react-query@4.32
   - Use the `useEffect` hook to apply the selected theme to the `document.documentElement` and store the theme value in `localStorage`.
   - ... (rest of the component implementation)
 
+***
 
-## Challenge (16) - About Page
+## Challenge 16 - About Page
 
 - setup about page
 
@@ -524,8 +532,9 @@ npm i axios@1.4.0 dayjs@1.11.9 @reduxjs/toolkit@1.9.5 @tanstack/react-query@4.32
             - Inside this `div`, a `div` with classes `stat-title`, `text-primary-content`, `text-4xl`, `font-bold`, and `tracking-widest`, containing the text "comfy".
       - A `p` element with classes `mt-6`, `text-lg`, `leading-8`, `max-w-2xl`, and `mx-auto`, containing sample Lorem ipsum text.
 
+***
 
-## Challenge (17) - Hero Component
+## Challenge 17 - Hero Component
 
 - setup hero component in landing page
 
@@ -549,8 +558,9 @@ npm i axios@1.4.0 dayjs@1.11.9 @reduxjs/toolkit@1.9.5 @tanstack/react-query@4.32
           - For each image, a `div` with class `carousel-item`.
             - Inside the `div`, an `img` element with attributes `src` set to the image path and classes `rounded-box`, `h-full`, `w-80`, and `object-cover`.
 
+***
 
-## Challenge (18) - Axios Custom Instance
+## Challenge 18 - Axios Custom Instance
 
 - explore api
 - [API DOCS](https://documenter.getpostman.com/view/18152321/2s9Xy5KpTi)
@@ -559,7 +569,9 @@ npm i axios@1.4.0 dayjs@1.11.9 @reduxjs/toolkit@1.9.5 @tanstack/react-query@4.32
 - figure out the base url
 - setup thunder client (optional)
 
-## Challenge (19) - Landing Loader
+***
+
+## Challenge 19 - Landing Loader
 
 - setup ErrorElement
 - add to Loading Page
@@ -589,7 +601,9 @@ npm i axios@1.4.0 dayjs@1.11.9 @reduxjs/toolkit@1.9.5 @tanstack/react-query@4.32
 5. Export ErrorElement Component:
    - Export the `ErrorElement` component as the default export of the module.
 
-## Challenge (20) - Featured Products
+***
+
+## Challenge 20 - Featured Products
 
 - create FeaturedProducts, SectionTitle and ProductsGrid components
 - render SectionTitle and ProductsGrid in FeaturedProducts
@@ -666,3 +680,1352 @@ npm i axios@1.4.0 dayjs@1.11.9 @reduxjs/toolkit@1.9.5 @tanstack/react-query@4.32
 
 5. Export ProductsGrid Component:
    - Export the `ProductsGrid` component as the default export of the module.
+
+***
+
+## Challenge 21 - Format Price
+
+- payment providers need in smallest unit
+  - in this case cents
+- in utils setup a function to format price
+- utilize in ProductsGrid
+
+***
+
+## Challenge 22 - Single Product
+
+- complete in multiple steps
+- fetch and render single product
+- don't forget about the colors and amount options
+- extra credit - set amount options dynamically
+
+### SingleProduct.jsx
+
+1. Import Dependencies:
+
+   - Import `useLoaderData` from `'react-router-dom'`.
+   - Import `formatPrice`, `customFetch`, and `useState` from `'../utils'`.
+   - Import `Link` from `'react-router-dom'`.
+
+2. Define Loader Function:
+
+   - Define a loader function that fetches product data based on the `params.id`.
+   - Use `customFetch` to fetch the product data from `/products/${params.id}`.
+   - Return an object containing the fetched product data.
+
+3. Create SingleProduct Component:
+
+   - Define a functional component named `SingleProduct`.
+
+4. Component Structure:
+
+   - Inside the component, destructure the `product` data using `useLoaderData`.
+   - Destructure attributes like `image`, `title`, `price`, `description`, `colors`, and `company`.
+   - Create a `dollarsAmount` variable by formatting the `price` using `formatPrice`.
+   - Use `useState` to manage the `productColor` and `amount` state.
+
+5. Display Product Information:
+
+   - Return a `section` element to encapsulate the component content.
+   - Display breadcrumb navigation using `Link` components for Home and Products pages.
+
+6. Product Display:
+
+   - Create a `div` with classes for styling and a grid layout.
+   - Display the product image using an `img` element with classes for styling.
+
+7. Product Info:
+
+   - Within a `div`, display the product title, company, and `dollarsAmount`.
+
+8. Description:
+
+   - Display the product description using a `p` element.
+
+9. Colors:
+
+   - Display available product colors using a `div` with classes for styling.
+   - Map through the `colors` array and create a `button` for each color.
+   - Add appropriate classes and styles for the color button based on the selected `productColor`.
+
+10. Amount:
+
+    - Display a dropdown for selecting the product amount using a `div`.
+    - Use a `select` element with options for different amounts.
+    - Set the value of the `select` to the `amount` state and handle changes with `handleAmount` function.
+
+11. Cart Button:
+
+    - Display an "Add to bag" button using a `button` element with appropriate classes and an `onClick` event handler.
+
+12. Export SingleProduct Component:
+    - Export the `SingleProduct` component as the default export of the module.
+
+***
+
+## Challenge 23 - Products Page (Setup)
+
+- create following components and render in products page
+  - Filters
+  - ProductsContainer
+  - PaginationContainer
+- in products page loader fetch all products
+
+### Products.jsx
+
+1. Import Dependencies:
+
+   - Import `Filters`, `PaginationContainer`, and `ProductsContainer` from `'../components'`.
+   - Import `customFetch` from `'../utils'`.
+
+2. Define URL and Loader Function:
+
+   - Define a constant `url` containing the URL path to fetch products from.
+   - Define a loader function that fetches product data from the defined URL.
+   - Use `customFetch` to fetch the product data from the `url`.
+   - Extract products and meta information from the response and return them.
+
+3. Create Products Component:
+
+   - Define a functional component named `Products`.
+
+4. Component Structure:
+
+   - Return a `Fragment` element (`<>...</>`) to wrap the component content.
+
+5. Filters Component:
+
+   - Include the `Filters` component to allow users to apply filters to the product list.
+
+6. ProductsContainer Component:
+
+   - Include the `ProductsContainer` component to display the list of products.
+
+7. PaginationContainer Component:
+
+   - Include the `PaginationContainer` component to manage product list pagination.
+
+8. Export Products Component:
+   - Export the `Products` component as the default export of the module.
+
+***
+
+## Challenge 24 - Products Container
+
+- create ProductsList and render products in one column
+- setup header (with total jobs and toggle buttons)
+- toggle between ProductsGrid and ProductsList
+
+### ProductsList.jsx
+
+1. Import Dependencies:
+
+   - Import `formatPrice` from `'../utils'`.
+   - Import `Link` and `useLoaderData` from `'react-router-dom'`.
+
+2. Create ProductList Component:
+
+   - Define a functional component named `ProductList`.
+
+3. Component Structure:
+
+   - Return a `div` element containing a list of products.
+
+4. Loop Through Products:
+
+   - Use the `useLoaderData` hook to get the `products` data from the loader.
+   - Use the `map` function to loop through each product in the `products` array.
+
+5. Product Link:
+
+   - For each product, create a `Link` element that links to the individual product page.
+   - Use the `product.id` as the link path (`to={`/products/${product.id}`}`).
+   - Add CSS classes to style the link and apply hover effects.
+
+6. Product Image:
+
+   - Display the product image inside an `img` element.
+   - Apply appropriate classes for styling and responsive design.
+   - Add hover effect to the image using CSS classes.
+
+7. Product Details:
+
+   - Display the product title and company using `h3` and `h4` elements.
+   - Add classes for font styles and responsiveness.
+
+8. Product Price:
+
+   - Display the formatted price using the `formatPrice` function.
+   - Use a `p` element with appropriate classes for styling.
+
+9. Export ProductList Component:
+   - Export the `ProductList` component as the default export of the module.
+
+### ProductsContainer.jsx
+
+1. Import Dependencies:
+
+   - Import `useLoaderData` from `'react-router-dom'`.
+   - Import `ProductsGrid` and `ProductsList` from their respective paths.
+   - Import `useState` from `'react'`.
+   - Import `BsFillGridFill` and `BsList` from `'react-icons/bs'`.
+
+2. Create ProductsContainer Component:
+
+   - Define a functional component named `ProductsContainer`.
+
+3. Component Structure:
+
+   - Return a `div` element containing the products container.
+
+4. Total Products Count:
+
+   - Use the `useLoaderData` hook to get the `meta` data from the loader.
+   - Extract the `total` count of products from `meta.pagination`.
+   - Use a conditional statement to handle the plural form of the word "product".
+
+5. Layout State and Styles:
+
+   - Use the `useState` hook to manage the layout state (grid or list).
+   - Create a helper function `setActiveStyles` to generate the CSS classes based on the active layout.
+   - Return appropriate CSS classes for active and inactive layouts.
+
+6. Header Section:
+
+   - Create a `div` for the header section containing the product count and layout buttons.
+   - Display the total number of products using the extracted `totalProducts` count.
+   - Create a button for grid layout and a button for list layout.
+   - Attach click event handlers to the buttons to set the layout state.
+
+7. Products Display:
+
+   - Create a `div` to display the products.
+   - Use conditional rendering to handle cases where no products match the search or when products are present.
+   - If no products match the search, display a message.
+   - If products are present and the layout is 'grid', display the `ProductsGrid` component.
+   - If products are present and the layout is 'list', display the `ProductsList` component.
+
+8. Export ProductsContainer Component:
+   - Export the `ProductsContainer` component as the default export of the module.
+
+***
+
+## Challenge (25) - Filters (Search Input)
+
+- add size to prop FormInput.jsx
+- render search input, submit button and reset button
+
+***
+
+## Challenge (26) - Filters (Select Input)
+
+- setup input for select input
+- render for categories, companies and order
+- companies and categories values are located in meta
+
+### FormSelect.jsx
+
+1. Create FormSelect Component:
+
+   - Define a functional component named `FormSelect`.
+
+2. Component Structure:
+
+   - Return a `div` element containing the form select input.
+
+3. Props:
+
+   - Accept the following props: `label`, `name`, `list`, `defaultValue`, and `size`.
+
+4. Label:
+
+   - Create a `label` element with a `for` attribute matching the `name` prop.
+   - Display the capitalized label text using the `label` prop.
+
+5. Select Input:
+
+   - Create a `select` element for the input field.
+   - Set the `name` and `id` attributes to the value of the `name` prop.
+   - Apply the appropriate CSS classes for the select input using the `size` prop.
+   - Set the `defaultValue` of the select input using the `defaultValue` prop.
+
+6. Options:
+
+   - Map through the `list` prop array to generate individual `option` elements.
+   - Use each item in the `list` as the `key` and `value` attributes of the `option` element.
+
+7. Export FormSelect Component:
+   - Export the `FormSelect` component as the default export of the module.
+
+***
+
+## Challenge (27) - Filters (Price)
+
+- create range input (hint: you will need local state)
+
+### FormRange.jsx
+
+1. Create FormRange Component:
+
+   - Define a functional component named `FormRange`.
+
+2. Component Structure:
+
+   - Return a `div` element containing the form range input and related elements.
+
+3. Props:
+
+   - Accept the following props: `label`, `name`, and `size`.
+
+4. Default Values:
+
+   - Define default values for `step`, `maxPrice`, and `selectedPrice`.
+
+5. Label and Selected Price Display:
+
+   - Create a `label` element with a `for` attribute matching the `name` prop.
+   - Display the capitalized label text using the `label` prop.
+   - Display the selected price using the `formatPrice` function.
+
+6. Range Input:
+
+   - Create an `input` element with `type` set to `'range'`.
+   - Set the `name`, `min`, `max`, `value`, and `step` attributes.
+   - Use the `selectedPrice` state for the `value` attribute.
+   - Set the `onChange` event handler to update `selectedPrice`.
+
+7. Min and Max Price Display:
+
+   - Create a `div` element for displaying minimum and maximum price values.
+   - Use the `formatPrice` function for formatting and displaying max price.
+
+8. Export FormRange Component:
+   - Export the `FormRange` component as the default export of the module.
+
+***
+
+## Challenge (28) - Filters (Shipping)
+
+- create checkbox input
+
+### FormCheckbox.jsx
+
+1. Create FormCheckbox Component:
+
+   - Define a functional component named `FormCheckbox`.
+
+2. Component Structure:
+
+   - Return a `div` element containing the form checkbox input and related elements.
+
+3. Props:
+
+   - Accept the following props: `label`, `name`, `defaultValue`, and `size`.
+
+4. Label Display:
+
+   - Create a `label` element with a `for` attribute matching the `name` prop.
+   - Display the capitalized label text using the `label` prop.
+
+5. Checkbox Input:
+
+   - Create an `input` element with `type` set to `'checkbox'`.
+   - Set the `name` attribute to match the `name` prop.
+   - Set the `defaultChecked` attribute using the `defaultValue` prop.
+   - Use the `size` prop to determine the checkbox size class.
+
+6. Styling and Layout:
+
+   - Apply appropriate classes to style and position the form control items.
+
+7. Export FormCheckbox Component:
+   - Export the `FormCheckbox` component as the default export of the module.
+
+***
+
+## Challenge (29) - Global Loading
+
+- create loading component
+- check for loading state in HomeLayout
+- toggle between loading and <Outlet>
+
+### Loading.jsx
+
+1. Create Loading Component:
+
+   - Define a functional component named "Loading".
+
+2. Component Structure:
+
+   - Return a "div" element with CSS classes to center content both vertically and horizontally.
+
+3. Loading Animation:
+
+   - Inside the "div", include a "span" element with the classes "loading loading-ring loading-lg".
+   - This applies a loading animation to create the visual effect.
+
+4. Styling:
+
+   - Use the provided CSS classes to style the loading animation.
+
+5. Export Loading Component:
+   - Export the "Loading" component as the default export of the module.
+
+### HomeLayout.jsx
+
+1. Create HomeLayout Component:
+
+   - Define a functional component named "HomeLayout".
+
+2. Import Dependencies:
+
+   - Import "Outlet" and "useNavigation" from 'react-router-dom'.
+   - Import "Navbar", "Loading", and "Header" from '../components'.
+
+3. Component Structure:
+
+   - Return a fragment ('<>...</>') to encapsulate the component's content.
+
+4. UseNavigation Hook:
+
+   - Use the "useNavigation" hook to access the navigation state.
+   - Store whether the page is currently loading in "isPageLoading" variable.
+
+5. Conditional Rendering:
+
+   - Use a ternary operator to conditionally render content:
+     - If "isPageLoading" is true, render the "Loading" component.
+     - Otherwise, render a "section" element with CSS classes and include the "Outlet" component.
+
+6. Header and Navbar:
+
+   - Include the "Header" and "Navbar" components at the beginning of the component.
+
+7. Styling:
+
+   - Apply CSS classes to style the layout and align its elements.
+
+8. Export HomeLayout Component:
+   - Export the "HomeLayout" component as the default export of the module.
+
+***
+
+## Challenge (30) - Setup Params
+
+- explore how to filter products
+  [API DOCS](https://documenter.getpostman.com/view/18152321/2s9Xy5KpTi#80a47ff5-cc24-494b-89e0-02cd92acc226)
+- test in Thunder Client
+- access params in loader
+- use params in customFetch
+- pass params down
+- use params as default values (price in FormRange)
+- setup reset button
+
+It takes a URL string from the request.url property.
+It creates a URL object from that URL string.
+It extracts the query parameters using the searchParams property.
+It converts the query parameters into an iterable of key-value pairs using the entries() method.
+It spreads these key-value pairs into an array.
+It uses Object.fromEntries() to create a new object where the key-value pairs become properties of the object.
+
+***
+
+## Challenge (31) - Pagination
+
+- explore how to paginate
+- test in Thunder Client
+- access meta
+- display next, prev and page buttons
+- add page value to query params
+
+## Building the PaginationContainer Component
+
+1. Import Required Modules:
+
+- Import hooks and modules from `react-router-dom`:
+  - `useLoaderData`
+  - `useLocation`
+  - `useNavigate`
+
+2. Initialize Component:
+
+- Create a functional component named `PaginationContainer`.
+
+3. Retrieve Data with Hooks:
+
+- Use the `useLoaderData` hook to get the `meta` data.
+- Destructure `pageCount` and `page` from `meta.pagination`.
+- Use the `useLocation` hook to get `search` and `pathname`.
+- Use the `useNavigate` hook to get the `navigate` function.
+
+4. Generate Pages Array:
+
+- Create an array called `pages` using `Array.from()`.
+  - This represents all the page numbers.
+
+5. Handle Page Change:
+
+- Create a function `handlePageChange` that takes `pageNumber` as an argument.
+  - Update the URL's query string parameter `page` with the new page number.
+  - Navigate to the updated URL.
+
+6. Conditional Rendering:
+
+- If `pageCount` is less than 2:
+  - Return `null`.
+
+7. Render Pagination Component:
+
+- Render a `div` container with the class `mt-16 flex justify-end`.
+  - Inside this, render another `div` with class `join`.
+    - For "Prev" button:
+      - Use the class `btn btn-xs sm:btn-md join-item`.
+    - For page numbers:
+      - Use the class `btn btn-xs sm:btn-md border-none join-item`.
+      - Highlight the current page with classes `bg-base-300 border-base-300`.
+    - For "Next" button:
+      - Use the class `btn btn-xs sm:btn-md join-item`.
+
+8. Export Component:
+
+- Export the `PaginationContainer` component.
+
+***
+
+## Challenge (32) - Setup RTK and react-toastify
+
+- create features/cart/cartSlice.js
+- setup default state (README) and reducers
+- export actions and cartSlice.reducer
+- create store.js and add cartSlice
+- setup RTK and react-toastify in main.jsx
+
+## Building the `cartSlice` Redux Slice
+
+1. **Import Required Modules**:
+
+- Import functions from specific libraries:
+  - `createSlice` from `@reduxjs/toolkit`
+  - `toast` from `react-toastify`
+
+2. **Initialize Default State**:
+
+- Create a `defaultState` object with the following properties:
+  - `cartItems` (array)
+  - `numItemsInCart` (integer)
+  - `cartTotal` (integer)
+  - `shipping` (fixed value: 500)
+  - `tax` (integer)
+  - `orderTotal` (integer)
+
+3. **Create the Redux Slice**:
+
+- Use the `createSlice` function to create the `cartSlice`.
+  - Name it as `'cart'`.
+  - Use the previously created `defaultState` as the `initialState`.
+  - Define several reducer functions within it:
+    - `addItem`: Logs the payload when an item is added.
+    - `clearCart`: Intended to clear all items from the cart.
+    - `removeItem`: Intended to remove a specific item.
+    - `editItem`: Intended to edit a specific item.
+
+4. **Export Actions**:
+
+- Destructure and export the following actions:
+  - `addItem`
+  - `removeItem`
+  - `editItem`
+  - `clearCart`
+
+5. **Export Reducer**:
+
+- Export the reducer generated by `cartSlice` for usage in the Redux store.
+
+***
+
+## Challenge (33) - Add Product (SingleProductPage)
+
+- import and dispatch addItem action
+- add item to cart in SingleProduct page
+
+***
+
+## Challenge (34) - AddItem Reducer
+
+- display cartItems in Navbar
+- setup addItem functionality
+
+## Building the `addItem` Reducer
+
+1. **Purpose**:
+
+- This reducer updates the cart state when a product is added.
+
+2. **Extract Product from Action**:
+
+- Extract the `product` object from `action.payload`.
+
+3. **Check for Existing Item**:
+
+- Search for the product in the `cartItems` array based on the `cartID`.
+- If the item already exists in the cart:
+  - Increment the `amount` of the item in the cart by the `amount` of the `product`.
+
+4. **Add New Item**:
+
+- If the product does not exist in the cart:
+  - Push the `product` directly into the `cartItems` array.
+
+5. **Update Cart Totals**:
+
+- Increase the `numItemsInCart` by the `amount` of the product.
+- Increase the `cartTotal` by the product's `price` multiplied by its `amount`.
+
+6. **Calculate Tax and Order Total**:
+
+- Set `tax` as 10% of the `cartTotal`.
+- Calculate the `orderTotal` as the sum of `cartTotal`, `shipping`, and `tax`.
+
+7. **Save to Local Storage**:
+
+- Convert the current state to a JSON string and store it in the browser's local storage under the key 'cart'.
+
+8. **Notify User**:
+
+- Use the `toast.success` method to display a success message: 'Item added to cart'.
+
+***
+
+## Challenge (35) - Refactor and Setup Local Storage
+
+- refactor addItem and get default state from local storage
+
+### calculateTotals Reducer:
+
+1. **Purpose**:
+
+- Re-calculates the tax and order total for the cart.
+
+2. **Calculate Tax and Order Total**:
+
+- Set `tax` as 10% of the `cartTotal`.
+- Determine the `orderTotal` as the sum of `cartTotal`, `shipping`, and `tax`.
+
+3. **Save to Local Storage**:
+
+- Convert the current state to a JSON string and save it in the browser's local storage under the key 'cart'.
+
+***
+
+## Challenge (36) - Clear Cart, Remove Item and Edit Item
+
+- try to setup reducers for clear cart, remove item and edit item
+
+## Building the Reducers
+
+### clearCart Reducer:
+
+1. **Purpose**:
+
+- Clears the current cart state and resets it to the default state.
+
+2. **Update Local Storage**:
+
+- Store the `defaultState` in the browser's local storage under the key 'cart'.
+
+3. **Return Default State**:
+
+- Reset the entire cart state by returning `defaultState`.
+
+### removeItem Reducer:
+
+1. **Purpose**:
+
+- Removes a specific item from the cart.
+
+2. **Extract cartID from Action**:
+
+- Extract the `cartID` from `action.payload`.
+
+3. **Find Product**:
+
+- Find the product in the `cartItems` array based on the `cartID`.
+
+4. **Update Cart Items**:
+
+- Filter out the product from `cartItems` array based on the `cartID`.
+
+5. **Update Cart Totals**:
+
+- Decrease the `numItemsInCart` by the `amount` of the product.
+- Decrease the `cartTotal` by the product's `price` multiplied by its `amount`.
+- Call the `calculateTotals` reducer to re-evaluate tax and order total.
+
+6. **Notify User**:
+
+- Use the `toast.error` method to display a message: 'Item removed from cart'.
+
+### editItem Reducer:
+
+1. **Purpose**:
+
+- Modifies the amount of a specific item in the cart.
+
+2. **Extract Data from Action**:
+
+- Extract `cartID` and `amount` from `action.payload`.
+
+3. **Find Item**:
+
+- Find the item in the `cartItems` array based on the `cartID`.
+
+4. **Update Cart Totals**:
+
+- Adjust the `numItemsInCart` by the difference between the new amount and the item's previous amount.
+- Update the `cartTotal` based on the item's `price` and the amount difference.
+- Update the item's `amount` to the new amount.
+- Call the `calculateTotals` reducer to re-evaluate tax and order total.
+
+5. **Notify User**:
+
+- Use the `toast.success` method to display a message: 'Cart updated'.
+
+```js
+state.numItemsInCart += amount - item.amount;
+```
+
+The logic here is to update the total number of items in the cart (state.numItemsInCart) by adjusting it based on the difference between the provided amount and the existing quantity of that item (item.amount). If amount is greater than item.amount, it means that items are being added to the cart. If amount is less than item.amount, it means that items are being removed from the cart. If they are equal, it implies no change to the quantity of that item in the cart.
+
+The result of the subtraction (amount - item.amount) is then added to the current state.numItemsInCart to reflect the new total number of items in the cart.
+
+```js
+state.cartTotal += item.price * (amount - item.amount);
+```
+
+In this line, the logic is calculating the change in the total cost of the cart (state.cartTotal) based on the price of the item (item.price) and the change in the quantity of that item (amount - item.amount). This calculation is then added to the current state.cartTotal.
+
+If amount is greater than item.amount, it means more items are being added, so the cost of those additional items (difference between amount and item.amount) is calculated by multiplying it with the price of the item. If amount is less than item.amount, it means items are being removed, so the cost of those removed items is subtracted from the state.cartTotal. If they are equal, there is no change in the cost related to that item.
+
+***
+
+## Challenge (37) - Setup Cart Page
+
+- create CartItemsList, CartTotals, CartItem components
+- export CartItemsList, CartTotals in components/index.js
+- setup two column layout in cart page
+
+### CartPage.jsx
+
+1. **Initialize Necessary Imports**:
+
+   - Import `useSelector` from `react-redux` to enable access to the Redux store.
+   - Bring in `CartItemsList`, `SectionTitle`, and `CartTotals` components from the `components` directory.
+   - Import `Link` from `react-router-dom` for navigation capabilities.
+
+2. **Create Cart Component**:
+
+   - Define a functional component named `Cart`.
+
+3. **Initialize State and Variables**:
+
+   - Set a temporary variable `user` to `null`.
+   - Use the `useSelector` hook to retrieve `numItemsInCart` from the Redux store's `cartState`.
+
+4. **Component Logic**:
+
+   - Check if `numItemsInCart` is zero.
+     - If true, return the `SectionTitle` component with the text 'Your cart is empty'.
+     - If there are items in the cart, continue to display the cart details.
+
+5. **Component Structure**:
+
+   - Render the `SectionTitle` component with the text 'Shopping Cart'.
+   - Set up a grid layout (`mt-8 grid gap-8 lg:grid-cols-12`) to manage cart layout.
+   - For displaying cart items:
+     - Use 8 of 12 columns on large screens (`lg:col-span-8`).
+     - Insert the `CartItemsList` component.
+   - For displaying cart totals and the checkout/login button:
+     - Use 4 of 12 columns on large screens (`lg:col-span-4 lg:pl-4`).
+     - Place the `CartTotals` component.
+     - Check if `user` is defined:
+       - If true, provide a link to '/checkout' with the text 'Proceed to checkout'.
+       - If false, provide a link to '/login' with the text 'please login'.
+
+6. **Export Cart Component**:
+
+   - Export the `Cart` component as the default export of the module.
+
+***
+
+## Challenge (38) - Cart Totals
+
+- setup cart totals component
+
+### CartTotals.jsx
+
+1. **Initialize Necessary Imports**:
+
+   - Import `useSelector` from `react-redux` for state retrieval from the Redux store.
+   - Bring in `formatPrice` function from the `utils` directory for price formatting.
+
+2. **Create CartTotals Component**:
+
+   - Define a functional component named `CartTotals`.
+
+3. **Retrieve State from Redux**:
+
+   - Use the `useSelector` hook to get `cartTotal`, `shipping`, `tax`, and `orderTotal` from the Redux store's `cartState`.
+
+4. **Component Structure**:
+
+   - Enclose all content inside a `div` with the class `card bg-base-200`.
+   - Use an inner `div` with the class `card-body` for structured content.
+   - Display the Subtotal:
+     - Use a `p` element with classes `flex`, `justify-between`, `text-xs`, `border-b`, and `border-base-300 pb-2`.
+     - Use two nested `span` elements. The first displays "Subtotal", and the second displays the formatted `cartTotal`.
+   - Display Shipping charges:
+     - Similar to the Subtotal, but the text reads "Shipping" and the value is the formatted `shipping`.
+   - Display Tax:
+     - Similar format, but the text reads "Tax" and the value is the formatted `tax`.
+   - Display Order Total:
+     - Use a `p` element with classes `mt-4`, `flex`, `justify-between`, and `text-sm  pb-2`.
+     - Use nested `span` elements with `font-bold` class. The first displays "Order Total", and the second displays the formatted `orderTotal`.
+
+5. **Export CartTotals Component**:
+
+   - Export the `CartTotals` component as the default export of the module.
+
+***
+
+## Challenge (39) - Cart Items List
+
+- iterate over cartItems and return CartItem
+- in CartItem display values and implement remove,edit functionality
+
+### CartItemsList.jsx
+
+1. **Initialize Necessary Imports**:
+
+   - Import `useSelector` from `react-redux` to retrieve state from the Redux store.
+   - Bring in `CartItem` component for item rendering.
+
+2. **Create CartItemsList Component**:
+
+   - Define a functional component named `CartItemsList`.
+
+3. **Retrieve State from Redux**:
+
+   - Use the `useSelector` hook to get `cartItems` from the Redux store's `cartState`.
+
+4. **Component Structure**:
+
+   - Create a wrapping `div`.
+   - Use the `map` method on `cartItems` to loop through each item.
+   - For each `item`, return a `CartItem` component:
+     - Pass `item.cartID` as the `key` prop for React's list rendering optimization.
+     - Pass the entire `item` object as the `cartItem` prop to the `CartItem` component.
+
+5. **Export CartItemsList Component**:
+
+   - Export the `CartItemsList` component as the default export of the module.
+
+### CartItem.js
+
+1. **Initialize Necessary Imports**:
+
+   - Import utility functions `formatPrice` and `generateAmountOptions` from the `../utils` directory.
+   - Import `removeItem` and `editItem` from the Redux slice named `cartSlice`.
+   - Bring in `useDispatch` from `react-redux` for dispatching actions to the Redux store.
+
+2. **Create CartItem Component**:
+
+   - Define a functional component named `CartItem` that accepts a `cartItem` prop.
+
+3. **Setup Redux Dispatch**:
+
+   - Use the `useDispatch` hook and store the result in the `dispatch` constant.
+
+4. **Functions for Event Handlers**:
+
+   - Define `removeItemFromTheCart` function:
+     - Dispatch the `removeItem` action, passing the `cartID` from the cart item.
+   - Define `handleAmount` function:
+     - Dispatch the `editItem` action, updating the `amount` for the cart item identified by `cartID`.
+
+5. **Destructure cartItem Prop**:
+
+   - Extract necessary fields from `cartItem` including `cartID`, `title`, `price`, `image`, `amount`, `company`, and `productColor`.
+
+6. **Component Structure**:
+
+   - Create an `article` element wrapping the entire cart item.
+     - Embed the product image using an `img` element.
+     - Display product information using a `div`:
+       - Show the product `title`, `company`, and `color` using corresponding elements.
+     - Render the product amount using a `div` containing a dropdown `select`.
+     - Provide a `button` to remove the item from the cart.
+     - Display the product price using a `p` element.
+
+7. **Export CartItem Component**:
+
+   - Export the `CartItem` component as the default export of the module.
+
+***
+
+## Challenge (40) - Setup User Slice
+
+- setup user slice
+- add to store
+
+### userSlice.js
+
+- create features/user/userSlice.js
+- Import Dependencies:
+
+  - Import `createSlice` from `'@reduxjs/toolkit'`.
+  - Import `toast` from `'react-toastify'`.
+
+- Define Initial State:
+
+  - Create an `initialState` object with default values for `user` and `theme`.
+
+- Create Redux Slice:
+
+  - Use `createSlice` to define a Redux slice named `'user'`.
+  - Set the slice name to `'user'`.
+  - Use the `initialState` object as the initial state.
+
+- Define Reducer Functions:
+
+  - Create the `loginUser` reducer function with the signature `(state, action) => {}`.
+
+    - Inside the function, log a message like `'login'`.
+
+  - Create the `logoutUser` reducer function with the signature `(state) => {}`.
+
+    - Inside the function, log a message like `'logout'`.
+
+  - Create the `toggleTheme` reducer function with the signature `(state) => {}`.
+    - Inside the function, log a message like `'toggle theme'`.
+
+- Export Actions:
+  - Export the action creators:
+    - `loginUser`
+    - `logoutUser`
+    - `toggleTheme`
+
+***
+
+## Challenge (41) - Move Theme Logic
+
+- move theme logic from Navbar to userSlice
+
+***
+
+## Challenge (42) - Setup Logout and Access User
+
+- setup logout reducer
+- access user in Header, NavLinks and Cart Page
+
+***
+
+## Challenge (43) - Register User
+
+- [API DOCS](https://documenter.getpostman.com/view/18152321/2s9Xy5KpTi)
+- docs - register request
+- test in Thunder Client
+- setup action in Register
+- add action to Register route in App.jsx
+
+### Register.js
+
+- Import Dependencies:
+
+  - Import `redirect` from `'react-router-dom'`.
+  - Import `customFetch` from `'../utils'`.
+  - Import `toast` from `'react-toastify'`.
+
+- Define an asynchronous function named `action` that takes an object with a property named `request` as its parameter.
+
+- Inside the `action` function:
+
+  - Use the `request` object to get form data using the `formData` method.
+  - Convert the form data to an object using `Object.fromEntries(formData)` and store it in the `data` variable.
+
+- Use a `try` block to handle the registration process:
+
+  - Send a POST request using `customFetch.post` to the `/auth/local/register` endpoint with the `data`.
+  - If the request is successful:
+    - Display a success toast message using `toast.success`.
+    - Redirect the user to the `/login` page using `redirect('/login')`.
+
+- Use a `catch` block to handle errors:
+  - If an error occurs, extract the error message from the response data, if available, or provide a default error message.
+  - Display the error message using `toast.error`.
+  - Return `null` to indicate that an error occurred.
+
+***
+
+## Challenge (44) - Login Setup
+
+- [API DOCS](https://documenter.getpostman.com/view/18152321/2s9Xy5KpTi)
+- docs - login request
+- test in Thunder Client
+- setup action in login and access store
+
+***
+
+### Challenge (45) - Login User
+
+### Login.jsx
+
+- Import Dependencies:
+
+  - Import `redirect` from `'react-router-dom'`.
+  - Import `customFetch` from `'../utils'`.
+  - Import `toast` from `'react-toastify'`.
+  - Import `loginUser` from `'../features/user/userSlice'`.
+  - Import `useDispatch` from `'react-redux'`.
+
+- Define a function named `action` that takes a parameter `store` and returns an asynchronous function that takes an object with a property named `request`.
+
+- Inside the inner asynchronous function:
+
+  - Use the `request` object to get form data using the `formData` method.
+  - Convert the form data to an object using `Object.fromEntries(formData)` and store it in the `data` variable.
+
+- Use a `try` block to handle the login process:
+
+  - Send a POST request using `customFetch.post` to the `/auth/local` endpoint with the `data`.
+  - If the request is successful:
+    - Dispatch the `loginUser` action with the response data using `store.dispatch`.
+    - Display a success toast message using `toast.success`.
+    - Redirect the user to the home page using `redirect('/')`.
+
+- Use a `catch` block to handle errors:
+  - If an error occurs, log the error to the console.
+  - Extract the error message from the response data, if available, or provide a default error message.
+  - Display the error message using `toast.error`.
+  - Return `null` to indicate that an error occurred.
+
+***
+
+## Challenge (46) - Demo User
+
+- remove defaultValue from inputs
+
+### loginAsGuestUser
+
+- Create a function named `loginAsGuestUser`.
+- Mark the function as `async` to indicate that it contains asynchronous operations.
+- Wrap the entire function body in a `try` block to handle potential errors.
+- Inside the `try` block, use the `customFetch.post` method to send a POST request.
+- Provide the endpoint URL `/auth/local`.
+- Pass an object with `identifier` and `password` properties as the request body.
+- Assign the response from the `customFetch.post` call to the `response` variable.- If the request is successful, dispatch an action (e.g., `loginUser`) with the `response.data`.
+- Use the `toast.success` method to display a success message (e.g., 'welcome guest user').
+- If the action dispatch and toast success are successful, use the `navigate` function to navigate to a specific route (e.g., `'/'`).
+- If any error occurs within the `try` block, it will be caught by the `catch` block.
+- Inside the `catch` block, use `console.log` to log the error for debugging purposes.
+- Display an error message using the `toast.error` method to notify the user about the login error.
+
+***
+
+## Challenge (47) - Checkout Page Setup
+
+- create CheckoutForm component
+
+### Checkout.jsx
+
+- Import Dependencies:
+
+  - Import `useSelector` from `'react-redux'`.
+  - Import `CheckoutForm`, `SectionTitle`, and `CartTotals` from `'../components'`.
+
+- Create the `Checkout` component:
+
+  - Inside the component, use `useSelector` to access the `cartTotal` from the Redux store.
+  - Check if the `cartTotal` is empty.
+  - If the `cartTotal` is empty, return a `SectionTitle` component with the text 'Your cart is empty'.
+  - If the `cartTotal` is not empty:
+    - Return a `SectionTitle` component with the text 'Place your order'.
+    - Render a `<div>` element with the class name 'mt-8 grid gap-8 md:grid-cols-2 items-start'.
+    - Inside the `<div>`, render the `CheckoutForm` component and the `CartTotals` component.
+
+- Export the `Checkout` component as the default export.
+
+***
+
+## Challenge (48) - Restrict Access
+
+App.jsx
+
+- in App.jsx import loader from Checkout page
+- pass store into the checkoutLoader
+- if no user redirect to login
+
+### Checkout.jsx
+
+- Import Dependencies:
+
+  - Import `redirect` from `'react-router-dom'`.
+  - Import `toast` from `'react-toastify'`.
+
+- Create a `loader` function:
+
+  - The `loader` function takes a `store` as a parameter.
+  - Inside the `loader` function:
+    - Get the `user` from the Redux store using `store.getState().userState.user`.
+    - Check if the `user` is falsy (not logged in).
+    - If the `user` is falsy:
+      - Display a toast warning message using `toast.warn()` with the text 'You must be logged in to checkout'.
+      - Return `redirect('/login')` to redirect the user to the login page.
+    - If the `user` is truthy (logged in):
+      - Return `null`.
+
+- Export the `loader` function.
+
+***
+
+## Challenge (49) - CheckoutForm
+
+- [API DOCS](https://documenter.getpostman.com/view/18152321/2s9Xy5KpTi)
+- docs - create order request
+- test in Thunder Client
+
+### App.jsx
+
+- in App.jsx import action from CheckoutForm.jsx
+- pass store into the checkoutAction
+
+## CheckoutForm.jsx
+
+- Import Dependencies:
+
+  - Import `Form` and `redirect` from `'react-router-dom'`.
+  - Import `FormInput` and `SubmitBtn` from appropriate paths.
+  - Import other required utilities and actions.
+
+- Create an `action` function:
+
+  - The `action` function takes a `store` as a parameter and returns an asynchronous function that takes a `request` parameter.
+  - Inside the async function:
+    - Await `request.formData()` to get form data.
+    - Destructure the `name` and `address` properties from the form data using `Object.fromEntries(formData)`.
+    - Get the `user` from the Redux store using `store.getState().userState.user`.
+    - Get the `cartItems`, `orderTotal`, and `numItemsInCart` from the Redux store using `store.getState().cartState`.
+    - Create an `info` object containing the gathered information.
+    - Try to make a POST request to '/orders' with the `info` data and the user's token in the headers.
+    - If successful:
+      - Dispatch the `clearCart()` action using `store.dispatch(clearCart())` to clear the cart.
+      - Display a success toast message using `toast.success()` with the text 'order placed successfully'.
+      - Return `redirect('/orders')` to redirect the user to the orders page.
+    - If there's an error:
+      - Log the error.
+      - Get the error message from the response data or provide a default message.
+      - Display an error toast message using `toast.error()` with the error message.
+      - Return `null`.
+
+- Create a `CheckoutForm` component:
+
+  - Inside the component:
+    - Use the `Form` component from 'react-router-dom' to create a form.
+    - Display a heading for the shipping information.
+    - Use the `FormInput` component to create input fields for the first name and address.
+    - Use the `SubmitBtn` component to create a submit button with the text 'Place Your Order'.
+
+- Export the `CheckoutForm` component.
+
+***
+
+## Challenge (50) - Auth Error
+
+- handle auth errors
+- check for response.status
+  - if status === 401 redirect to login
+
+***
+
+## Challenge (51) - Orders Request Overview
+
+- [API DOCS](https://documenter.getpostman.com/view/18152321/2s9Xy5KpTi)
+- docs - orders request
+- test in Thunder Client
+
+***
+
+## Challenge (52) - Orders Page Setup
+
+- create components/OrdersList.jsx (export)
+- create loader (import/setup in App.jsx and provide store)
+- restrict access to page
+- make a request to get all users
+- grab all the query params
+- return orders and meta
+
+### Orders.jsx
+
+1. **Import Dependencies:**
+
+   - Import the required modules and components from 'react-router-dom', 'react-toastify', and other custom files.
+
+2. **Define Loader Function:**
+
+   - Create a loader function that takes the `store` parameter and an object with a `request` property.
+   - Within the loader function:
+     - Retrieve the user information from the Redux store.
+     - Check if the user is logged in. If not, display a warning toast and redirect to the login page.
+     - Parse query parameters from the URL.
+     - Use the `customFetch` utility to make a GET request to the '/orders' endpoint.
+     - Handle successful responses by returning the fetched orders data and meta information.
+     - Handle errors by displaying appropriate error messages using toast and optionally redirecting if unauthorized.
+     - Return `null` if an error occurs.
+
+3. **Define Orders Component:**
+
+   - Create a functional component named `Orders`.
+   - Within the component:
+     - Return JSX that displays a heading element with the text "orders".
+
+4. **Export Loader Function:**
+
+   - Export the defined loader function.
+
+5. **Export Orders Component:**
+   - Export the `Orders` component as the default export of the module.
+
+***
+
+## Challenge (53) - Render Orders
+
+### Orders.jsx
+
+- Import Dependencies:
+
+  - Import necessary components and hooks from your project's dependencies.
+
+- Define Component:
+
+  - Define a functional component named `Orders`.
+
+- Fetch Data:
+
+  - Use the `useLoaderData` hook to access data from the loader context.
+  - Check if the `meta.pagination.total` value is less than 1 to determine if there are no orders.
+
+- Conditional Rendering:
+
+  - If there are no orders, return a component, such as `<SectionTitle />`, with a message like 'Please make an order'.
+
+- Orders Rendering:
+
+  - If there are orders, return the following components:
+    - `<SectionTitle />` with the text 'Your Orders'.
+    - `<OrdersList />` component to display the list of orders.
+    - `<PaginationContainer />` component for handling pagination.
+
+- Export Component:
+  - Export the `Orders` component as the default export.
+
+### OrdersList.jsx
+
+- Import Dependencies:
+
+  - Import `useLoaderData` from `'react-router-dom'`.
+  - Import `day` and `advancedFormat` from `'dayjs'`.
+  - Extend dayjs with the `advancedFormat` plugin using `day.extend(advancedFormat)`.
+
+- Create the `OrdersList` component:
+
+  - Inside the component:
+    - Use the `useLoaderData()` hook to get data from loader data.
+    - Destructure `orders` and `meta` from the loaded data.
+    - Return the orders list interface:
+      - Display the total number of orders using the `meta.pagination.total` value.
+      - Create a table to display order information.
+      - Define table headings: Name, Address, Products, Cost, and Date.
+      - Use `.map()` to iterate over each order and generate table rows:
+        - Destructure relevant attributes from the `order` object.
+        - Format the `createdAt` date using dayjs to display in 'hh:mm a - MMM Do, YYYY' format.
+        - Return a table row with the extracted data.
+
+- Export the `OrdersList` component.
+
+***
+
+## Challenge (54) - Complex Pagination
+
+- create ComplexPaginationContainer.jsx
+- render in Orders.jsx
+
+### ComplexPaginationContainer.jsx
+
+- Import Dependencies:
+
+  - Import `useLoaderData`, `useLocation`, and `useNavigate` from `'react-router-dom'`.
+
+- Create the `ComplexPaginationContainer` component:
+
+  - Inside the component:
+    - Use the `useLoaderData()` hook to get data from loader data.
+    - Destructure `meta.pagination` to get `pageCount` and `page`.
+    - Use the `useLocation()` hook to get the current location's search and pathname.
+    - Use the `useNavigate()` hook to get the navigation function.
+    - Create a `handlePageChange` function that:
+      - Constructs a new URLSearchParams from the current search.
+      - Sets the 'page' parameter in the search to the specified `pageNumber`.
+      - Uses the navigate function to change the URL with the updated search.
+    - Create an `addPageButton` function that returns a button element with the appropriate classes and onClick handler.
+    - Create a `renderPageButtons` function that generates an array of page buttons, including ellipses and the current page button.
+    - Use conditional checks to handle rendering of first, last, and ellipsis buttons.
+    - Return `null` if `pageCount` is less than 2.
+    - Return the pagination interface containing the "Prev," page buttons, and "Next" buttons.
+
+- Export the `ComplexPaginationContainer` component.
+
+***
+
+## Challenge (55) - Setup React Query
+
+- import and setup react query in App.jsx
+- pass query client down to
+  - Landing Page
+  - SingleProduct Page
+  - Products Page
+- refactor loaders
+
+***
+
+## Challenge (56) - Landing
+
+- setup react query and invoke in loader
+
+***
+
+## Challenge (57) - Single Product
+
+- setup react query and invoke in loader
+
+***
+
+## Challenge (58) - All Products
+
+- setup react query and invoke in load.
+
+?? === This operator is known as the nullish coalescing operator in JavaScript. It is a logical operator that returns its right-hand side operand when its left-hand side operand is null or undefined, and otherwise returns its left-hand side operand.
+
+In simpler terms, the ?? operator is used to provide a default value for potentially null or undefined variableser
+
+***
+
+## Challenge (59) - Orders
+
+setup react query and invoke in loader
+
+***
+
+## Challenge (60) - Remove Queries
+
+- remove "orders" query in CheckoutForm and Header
+
+***
