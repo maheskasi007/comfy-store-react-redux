@@ -222,7 +222,7 @@ npm i axios@1.4.0 dayjs@1.11.9 @reduxjs/toolkit@1.9.5 @tanstack/react-query@4.32
 
 ***
 
-## Challenge 7 - CLogin Page Structure
+## Challenge 7 - Login Page Structure
 
 - setup structure for login page (use complete project as reference)
 - check for loading state and disable submit button

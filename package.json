@@ -1,5 +1,6 @@
 {
   "name": "03-comfy-store",
+  "description": "Comfy Store is a React-based e-commerce project designed to showcase a variety of home products. It uses Redux for state management to handle the application's global state efficiently, ensuring smooth and consistent data flow throughout the app. For styling, the project leverages Tailwind CSS for utility-first design and DaisyUI for pre-built components that enhance the UI. Axios is used for making API requests to fetch product data and user information, while React Router DOM is employed for seamless navigation between different pages, such as product listings and the cart. The project is set up with Vite for fast build times and optimized development experience.",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,7 +13,7 @@
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
     "@tanstack/react-query": "^4.32.6",
-    "@tanstack/react-query-devtools": "^4.32.6",
+    "@tanstack/react-query-devtools": "^4.36.1",
     "axios": "^1.4.0",
     "dayjs": "^1.11.9",
     "react": "^18.3.1",
